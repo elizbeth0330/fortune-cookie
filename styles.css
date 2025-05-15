@@ -18,8 +18,8 @@ h1 {
     font-size: 3rem;
 }
 #cookie-image {
-    width: 60vw;
-    margin: auto;
+    width: 12em;
+    margin-bottom: 5rem;
     cursor: pointer;
 }
 #cookie-image:hover {
@@ -28,10 +28,12 @@ h1 {
 }
 .hidden {
     display: none;
+    margin-top: 5rem;
 }
 #fortune-message {
     font-style: italic;
     color: #000;
+    font-size: 2rem;
 }
 .spinning {
     animation: spin 1s linear infinite;
