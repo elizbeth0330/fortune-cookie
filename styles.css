@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: #000;
+}
+
+section {
+    padding: 10%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+}
+#cookie-image {
+    width: 60vw;
+    margin: auto;
+    cursor: pointer;
+}
+#cookie-img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.hidden {
+    display: none;
+}
+#fortune-message {
+    margin-top: ;
+    font-style: italic;
+    color: #000;
+}
+.spinning {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transfrom: rotate(360deg); }
+}
+button {
+    margin-top: 5rem;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 0.8rem;
+    background-color: #fff;
+}
+button:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
