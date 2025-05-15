@@ -10,7 +10,7 @@ const fortunes = [
     "The best is yet to come.",
     "Today is your lucky day!",
     "Don't be afraid to take risks.",
-    "Your creativity will lead you to success."
+    "Your creativity will lead you to success.",
     "A pleasant surprise is in store for you.",
     "Your hard work will soon pay off.",
     "Take time to enjoy the simple things.",
