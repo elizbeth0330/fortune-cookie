@@ -22,7 +22,7 @@ h1 {
     margin: auto;
     cursor: pointer;
 }
-#cookie-img:hover {
+#cookie-image:hover {
     transform: scale(1.2);
     transition: 0.3s;
 }
@@ -30,7 +30,6 @@ h1 {
     display: none;
 }
 #fortune-message {
-    margin-top: ;
     font-style: italic;
     color: #000;
 }
@@ -39,7 +38,7 @@ h1 {
 }
 @keyframes spin {
     from { transform: rotate(0deg); }
-    to { transfrom: rotate(360deg); }
+    to { transform: rotate(360deg); }
 }
 button {
     margin-top: 5rem;
